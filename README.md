@@ -282,21 +282,6 @@ Open your browser and navigate to:
 
 ---
 
-## 📊 Presentation Talking Points (For Leadership & Coaches)
-
-1. **Why Baseline Stats Lie**: 
-   - Traditional IPL recruitment heavily overpays for high aggregate run-scorers who accumulate during low-pressure phases.
-   - SupeRR Selector mathematically proves that players like **Shashank Singh** (+83.4 SR lift) and **Naman Dhir** (+71.1 SR lift) provide significantly greater win-probability delta at auction value.
-
-2. **The Sunil Narine & Jasprit Bumrah Standard**:
-   - Both bowlers actually *decrease* their economy rates when the match pressure crosses $PI \ge 65.0$. 
-   - They represent the gold standard of bowling clutch: suppressing boundaries while maintaining a sub-7.0 RPO.
-
-3. **Death-Overs Asset Acquisition**:
-   - For death bowling, acquiring **Matheesha Pathirana** or domestic target **Rasikh Salam** directly addresses high-leverage defensive phases.
-   - For finishing matches, pairing **Shashank Singh** or **Tim David** with existing Rajasthan Royals assets creates the most clutch middle-order unit in the tournament.
-
----
 
 ## 👥 Credits & Verification
 
