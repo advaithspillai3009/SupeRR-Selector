@@ -1,17 +1,8 @@
 {
-  "version": 2,
   "rewrites": [
     { "source": "/static/(.*)", "destination": "/web/static/$1" },
+    { "source": "/api/(.*)", "destination": "/api/index.py" },
     { "source": "/", "destination": "/web/static/index.html" },
-    { "source": "/(.*)", "destination": "/web/static/$1" }
-  ],
-  "headers": [
-    {
-      "source": "/static/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" },
-        { "key": "Access-Control-Allow-Origin", "value": "*" }
-      ]
-    }
+    { "source": "/(.*)", "destination": "/api/index.py" }
   ]
 }
