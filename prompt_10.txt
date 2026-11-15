@@ -1,0 +1,309 @@
+<USER_REQUEST>
+PROJECT: SUPERR SELECTOR — PRESSURE PERFORMANCE INTELLIGENCE
+
+I have attached a reference image containing six homepage design concepts for my cricket analytics project, SupeRR Selector.
+
+Your task is to build a fully functional, polished homepage based on these visual references.
+
+IMPORTANT: Do not simply reproduce the reference image as a static picture. Study its visual language, layouts, typography, colours, spacing, glass effects and branding. Build a real, responsive website using HTML/CSS/React components as appropriate for the existing project.
+
+FIRST: INSPECT THE EXISTING PROJECT
+- Examine the existing codebase, framework, folder structure, assets, data files and model integration.
+- Reuse the existing project architecture.
+- Do not overwrite or remove the existing cricket analytics model.
+- Do not create fake statistics, player names, rankings or match data.
+- If actual model outputs are unavailable, use clearly labelled placeholders rather than invented results.
+- Preserve existing working functionality.
+
+1. DESIGN DIRECTION
+
+The website should look like a premium cricket analytics platform designed by a professional sports technology company.
+
+The design should combine:
+- Elegant editorial typography.
+- Minimalist layouts.
+- Subtle glassmorphism.
+- Premium cricket photography.
+- Sophisticated use of negative space.
+- Rajasthan Royals-inspired branding.
+
+Avoid:
+- Generic AI dashboard aesthetics.
+- Excessive gradients.
+- Excessive rounded cards.
+- Neon effects.
+- Too many floating elements.
+- Excessive animations.
+- Emoji icons.
+- Unnecessary charts on the homepage.
+- Overly decorative backgrounds.
+
+The design must feel intentional, refined and believable as a real product.
+
+2. BRAND COLOUR PALETTE
+
+Use a Rajasthan Royals-inspired palette.
+
+Primary navy: #101C37
+Secondary navy: #172747
+Royal pink: #E65391
+Deep pink: #C93678
+Champagne gold: #D6B66C
+Light ivory: #F7F4F2
+White: #FFFFFF
+Muted grey: #8D96A9
+
+Dark mode:
+- Deep navy background.
+- Slightly lighter navy content surfaces.
+- Pink for primary actions and active navigation.
+- Gold for important highlights and numbers.
+- White and muted grey typography.
+
+Light mode:
+- Ivory/off-white background.
+- White or translucent glass surfaces.
+- Deep navy typography.
+- Pink for actions and active elements.
+- Restrained gold accents.
+
+Do not change the brand identity between themes.
+
+3. DARK AND LIGHT MODE
+
+Implement a fully working theme toggle.
+
+Requirements:
+- Place a small, elegant theme switch in the top-right area.
+- Use sun and moon icons.
+- Switching themes must update the entire website, including sidebar, background, typography, cards, borders, buttons and hover states.
+- Use smooth but subtle transitions.
+- Maintain readable contrast in both themes.
+- Save the selected theme using localStorage.
+- Respect the user's system theme on the first visit if no preference has been saved.
+
+Both themes must have equally polished designs. Do not make light mode an afterthought.
+
+4. MAIN WEBSITE LAYOUT
+
+Desktop-first design at 1440px width.
+
+Use a fixed vertical sidebar approximately 230–250px wide.
+
+Sidebar:
+- SupeRR Selector logo and branding at the top.
+- Small subtitle: PRESSURE PERFORMANCE INTELLIGENCE.
+- Navigation items:
+  1. Overview
+  2. Batters
+  3. Bowlers
+  4. Pressure Analysis
+  5. Match Explorer
+  6. Methodology
+- Use simple, consistent line icons.
+- Highlight the active navigation item using a subtle pink background/accent.
+- Keep navigation clean and compact.
+- Add a small version or project label at the bottom.
+
+Main content:
+- Spacious layout.
+- Generous margins.
+- Clear visual hierarchy.
+- Consistent alignment.
+- Avoid unnecessary panels and cards.
+
+5. HOMEPAGE HERO SECTION
+
+The hero section should be the visual centrepiece.
+
+Use the following headline:
+
+THE PRESSURE INDEX
+
+Supporting headline:
+
+Talent performs. Champions deliver when it matters.
+
+Description:
+
+SupeRR Selector analyses IPL and T20I performances to identify the batters and bowlers who deliver when the pressure is highest.
+
+Primary CTA:
+Explore Rankings →
+
+Secondary CTA:
+How It Works
+
+Visual direction:
+- Large editorial serif headline.
+- Clean sans-serif supporting text.
+- A premium cricket photograph positioned on the right.
+- Prefer a cricketer seen from behind, a stadium under lights, or a close-up cricket visual.
+- Use dark navy and pink lighting in dark mode.
+- Use a softer, desaturated cricket photograph with pink accents in light mode.
+- Avoid cheesy stock imagery and artificial-looking 3D objects.
+- The photograph should blend naturally with the background.
+
+The hero should be visually striking without becoming crowded.
+
+6. GLASSMORPHISM
+
+Use glass effects selectively.
+
+Apply them to:
+- Statistics panel.
+- Feature cards.
+- Small information panels.
+- Navigation surfaces if appropriate.
+
+Glass styling:
+- Translucent backgrounds.
+- Subtle backdrop blur.
+- Thin low-opacity borders.
+- Restrained shadows.
+- Small-radius corners, not excessively rounded.
+
+Dark glass: translucent navy surfaces with subtle white borders.
+
+Light glass: translucent white surfaces with subtle grey/pink borders.
+
+Do not apply blur to every element.
+
+7. STATISTICS STRIP
+
+Below the hero, add a horizontal statistics strip.
+
+It should display the actual available dataset statistics:
+- Matches analysed.
+- Players evaluated.
+- Pressure deliveries.
+- Competition coverage (IPL and T20I).
+
+Use large, elegant numerical typography and small explanatory labels.
+
+Do not hardcode values if the model or dataset already provides them. Connect to the existing data source.
+
+8. HOW IT WORKS SECTION
+
+This is important. The homepage must briefly explain the project to someone who has never heard of it.
+
+Create a clean three-step horizontal section:
+
+01 — IDENTIFY PRESSURE
+Identify match situations where the pressure is high using factors such as required run rate, wickets remaining, balls remaining and innings context.
+
+02 — ANALYSE PERFORMANCE
+Evaluate batting and bowling performance during these pressure situations using measurable performance indicators.
+
+03 — RANK THE PLAYERS
+Compare players against their normal performance and identify the most reliable performers under pressure.
+
+Use three elegant sections or cards with simple line icons or minimal illustrations.
+
+Keep descriptions short. This is an introduction, not a technical report.
+
+9. FEATURE PREVIEW
+
+Add a small section titled:
+
+EXPLORE THE ANALYTICS
+
+Show three minimal feature previews:
+
+- Top 10 Batters — Discover the most reliable batters under pressure.
+- Top 10 Bowlers — Find bowlers who perform when it matters.
+- Match Insights — Explore match situations and pressure patterns.
+
+Use clean typography and subtle dividers. Avoid oversized dashboard cards.
+
+Each feature should navigate to its corresponding existing page or route.
+
+10. FINAL CALL TO ACTION
+
+At the bottom, add:
+
+Ready to discover who thrives under pressure?
+
+Button: Explore the Rankings →
+
+Keep the footer minimal with the project name and relevant navigation links.
+
+11. TYPOGRAPHY
+
+Use:
+- Playfair Display or a similar refined serif for large editorial headlines.
+- Manrope or Inter for interface text, descriptions, navigation and numbers.
+
+Headlines should feel editorial and confident.
+
+Avoid excessively bold typography. Use different font weights carefully.
+
+12. INTERACTIONS
+
+Implement:
+- Working dark/light theme toggle.
+- Working sidebar navigation.
+- Functional CTA buttons.
+- Subtle hover states.
+- Smooth scrolling where appropriate.
+- Responsive navigation on mobile.
+- Accessible keyboard interactions.
+- Proper active navigation states.
+
+Animations should be minimal and purposeful.
+
+13. RESPONSIVENESS
+
+Desktop:
+- Fixed sidebar.
+- Spacious hero.
+- Statistics in one horizontal row.
+
+Tablet:
+- Narrower sidebar or collapsible navigation.
+- Adjusted hero layout.
+
+Mobile:
+- Collapsible menu.
+- Stacked hero content.
+- Statistics in a compact grid.
+- Stacked how-it-works section.
+- No horizontal overflow.
+
+14. IMPLEMENTATION REQUIREMENTS
+
+- Build reusable components.
+- Use the existing project framework.
+- Keep styling organised and maintainable.
+- Use the existing model and dataset wherever available.
+- Do not fabricate player statistics or results.
+- Ensure all navigation and buttons work.
+- Check both themes carefully.
+- Test at desktop, tablet and mobile widths.
+- Do not leave broken images, placeholder links or console errors.
+
+15. FINAL DESIGN QUALITY
+
+Use the attached reference image as the primary visual reference.
+
+My preferred direction is:
+- The dark navy editorial design from the left-side concepts.
+- The clean ivory and pink treatment from the right-side concepts.
+- The premium glass surfaces and restrained gold details.
+- The photography-led hero rather than a chart-heavy dashboard.
+
+The result should feel like a premium cricket analytics product associated with a professional IPL franchise.
+
+IMPORTANT FINAL INSTRUCTION:
+
+Do not immediately generate a generic template. First inspect the existing project, then implement the homepage directly in the codebase. After implementation, run the project, inspect the actual rendered page in a browser, and refine spacing, typography, alignment, colours and responsiveness until it closely matches the reference design.
+
+Build the actual working homepage, not just a design description.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-14T22:17:50+05:30.
+
+The user has uploaded 1 image(s):
+- C:/Users/ADVAITH/.gemini/antigravity/brain/f3e97248-7a72-44f5-a0b4-4f1bd2b0d280/.user_uploaded/media_1794674854521_5619e029.jpg
+You can embed this image in an artifact if you need the USER to review it.
+</ADDITIONAL_METADATA>
